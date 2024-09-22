@@ -11,4 +11,11 @@ class Calculadora {
         return a * b;
     }
 
+    divisao(a, b) {
+        if (b === 0) {
+            return "Erro. Não é possível fazer divisão por ZERO."
+        }        
+        return a / b;
+    }
+
 }
