@@ -17,5 +17,12 @@ class Calculadora {
         }        
         return a / b;
     }
-
 }
+
+const calculadoraTeste = new Calculadora()
+
+console.log(calculadoraTeste.adicao(1, 2))
+console.log(calculadoraTeste.subtracao(5, 2))
+console.log(calculadoraTeste.multiplicacao(7, 5))
+console.log(calculadoraTeste.divisao(9, 3))
+console.log(calculadoraTeste.divisao(9, 0))
