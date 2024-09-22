@@ -6,4 +6,9 @@ class Calculadora {
     subtracao(a, b) {
         return a - b;
     }
+
+    multiplicacao(a, b) {
+        return a * b;
+    }
+
 }
